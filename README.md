@@ -6,13 +6,13 @@ Automatically identifying different types of vegetables is useful for both commo
 
 > This project aims to develop automatic vegetable classification models using deep learning for vegetable picking, sorting, and delivery.
 
-- In this project, we first fine tune a baseline model using AlexNet.
+- In this project, we first fine-tune a baseline model using AlexNet.
 
 - We then explore the ability of three advanced training techniques including data augmentation, regularization (dropout and batch normalization), and learning rate decay. 
 
 - Finally, we evaluate transfer learning performance using pre-trained ResNet-18 and EfficientNet-B0 models and compare them with the baseline models.
 
-## Deep Learning Pipleline
+## Deep Learning Pipeline
 
 <p align="center">
 <img src="./img/implementation_flow.png" width="700" />
@@ -46,7 +46,7 @@ The histograms give us the softmax probability to which the class the image belo
 
 ## Analysis
 
-- Our experiments show that that data augmentation, regularization, and learning rate decay are necessary when training deep neural networks because they can maintain the numerical stability of parameters in deep neural networks.
+- Our experiments show that data augmentation, regularization, and learning rate decay are necessary when training deep neural networks because they can maintain the numerical stability of parameters in deep neural networks.
 
 - Furthermore, our experiments prove that transfer learning is essential in the computer vision domain and can provide extremely good results. Our transfer learning models achieve 98.4% classification accuracy, which is better than the baseline models.
 
